@@ -579,3 +579,9 @@ diff -ruN jpeg-9f/jmemamiga.c jpeg-9f.aros/jmemamiga.c
 +
 +ADD2INITLIB(JPEG_Init, 0);
 +ADD2EXPUNGELIB(JPEG_Expunge, 0)
+diff -ruN jpeg-9f/jmorecfg.h jpeg-9f.aros/jmorecfg.h
+--- jpeg-9f/jmorecfg.h	2022-03-31 09:41:26.000000000 +0000
++++ jpeg-9f.aros/jmorecfg.h	2026-11-13 17:57:47.000000000 +0000
+@@ -216 +216 @@
+-typedef long INT32;
++typedef int INT32;
